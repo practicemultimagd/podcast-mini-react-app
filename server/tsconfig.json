@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+      "outDir": "dist",
+      "target": "es2019",
+      "module": "commonjs",
+      "declaration": false,
+      "removeComments": true,
+      "noLib": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": false,
+      "pretty": true,
+      "allowUnreachableCode": false,
+      "allowUnusedLabels": false,
+      "noImplicitAny": false,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "esModuleInterop": true,
+      "lib": [
+          "esnext",
+          "dom"
+      ],
+      "incremental": true,
+      "types": [
+          "node",
+      ],
+  },
+  "exclude": [
+      "node_modules",
+      "dist",
+      "public"
+  ],
+  "include": [
+      "./src"
+  ],
+  "compileOnSave": true,
+}
