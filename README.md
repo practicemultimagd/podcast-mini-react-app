@@ -5,7 +5,7 @@ The server part is not implemented properly. This is only to simulate
 clean responses.
 
 ## Dependences
-node-js version v19.4.0
+node v18.16.1 (npm v9.5.1)
 
 ## How to use it
 
