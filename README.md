@@ -25,5 +25,6 @@ npm i
 npm run ts:dev
 cd ../client
 npm i
+npm build
 npm run preview
 ```
