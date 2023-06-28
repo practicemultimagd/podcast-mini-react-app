@@ -9,12 +9,12 @@ node v18.16.1 (npm v9.5.1)
 
 ## How to use it
 
-### develop mode
+### develop mode (react client)
 ```
 cd server
 npm i
 npm run ts:dev
-cd ../client
+cd ../client/react
 npm i
 npm run dev
 ```
