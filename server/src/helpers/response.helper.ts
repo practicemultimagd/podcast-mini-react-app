@@ -1,8 +1,8 @@
-import { Podcast } from '../../types/Podcast';
-import { PodcastDetails } from '../../types/PodcastDetails';
-import { EpisodeDetails } from '../../types/EpisodeDetails';
+import { Podcast } from '../types/Podcast';
+import { PodcastDetails } from '../types/PodcastDetails';
+import { EpisodeDetails } from '../types/EpisodeDetails';
 
-import { Episode } from '../../types/Episode';
+import { Episode } from '../types/Episode';
 
 export const adaptGetPodcastsResponse = (response): Podcast[] => {
   const adaptGetPodcastsResponse: Podcast[] = [];
