@@ -11,7 +11,7 @@ node v18.16.1 (npm v9.5.1)
 
 ### develop mode (react client)
 ```
-cd server
+cd fake_server
 npm i
 npm run ts:dev
 cd ../client/react
@@ -20,7 +20,7 @@ npm run dev
 ```
 ### production preview mode
 ```
-cd server
+cd fake_server
 npm i
 npm run ts:dev
 cd ../client
